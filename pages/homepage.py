@@ -18,4 +18,4 @@ class HomePage:
     def check_product_count(self,count):
         monitors = self.browser.find_elements(By.CSS_SELECTOR, '.card')
         assert len(monitors) == count
-        #f
+        #s
